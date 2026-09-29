@@ -2,8 +2,6 @@
 
 An end-to-end data engineering project that takes raw CSV files from **AWS S3**, processes them through a **Bronze → Silver → Gold** medallion architecture in **Databricks (Unity Catalog)**, loads the fact table **incrementally**, and serves a live **AI/BI sales dashboard**.
 
-![Dashboard](images/dashboard.png)
-
 ---
 
 ## 📌 Highlights
@@ -184,21 +182,12 @@ The **FMCG Sales Dashboard** (Databricks AI/BI) includes:
 └── README.md
 ```
 
----
-
-## 🔍 Known Limitations & Next Steps
-
-- `market` and `channel` contain `null` values in some records; add null handling / data quality checks in the Silver layer
-- Add automated data quality tests (e.g. expectations or constraints)
-- Add alerting for job failures
-- Parameterise the job for multiple data sources
-- Add CI/CD (e.g. Databricks Asset Bundles)
 
 ---
 
 ## 👤 Author
 
-**Your Name**
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+Vishakha Saini
+[LinkedIn](www.linkedin.com/in/vishakha-saini-39718b202)
 
 ⭐ If you found this project useful, consider giving it a star!
